@@ -44,4 +44,15 @@ section {
   position: relative;
   z-index: 5;
 }
+body {
+  background-color: #87CEEB;
+  background-image: url('images/mountains.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover; /* или contain, если хочешь полностью влезть */
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+}
 
